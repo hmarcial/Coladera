@@ -15,9 +15,10 @@ namespace Tarea
         }
         public void llenar()
         {
+            int uno = 1;
             for(int i = 1; i < 1000; i++)
             {
-                vec[i] = 1;
+                vec[i] = uno;
             }
         }
         public void Compara()
